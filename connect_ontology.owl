@@ -531,6 +531,67 @@
   <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
 </owl:Class>
 
+  <!-- Social Event Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#SocialEvent">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Medical Event Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#MedicalEvent">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Home Alone Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#HomeAlone">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Public Event Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#PublicEvent">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Family Visit Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#FamilyVisit">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Work or Study Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#WorkOrStudy">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Exercise Session Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#ExerciseSession">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Holiday Period Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#HolidayPeriod">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Weather Condition Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#WeatherCondition">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+  <!-- Sleep Environment Context -->
+  <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#SleepEnvironment">
+    <rdfs:subClassOf rdf:resource="http://connectdigitalstudy.com/ontology#ContextualSituation"/>
+    <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
+  </owl:Class>
+
+
 <!-- Event Classes -->
 
 <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#Event">
@@ -695,6 +756,7 @@
 <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#ContextualSituation">
   <connect:belongsToLayer rdf:resource="http://connectdigitalstudy.com/ontology#ContextualLayer"/>
 </owl:Class>
+
 
 <!-- Subclasses of TimeInterval -->
 <owl:Class rdf:about="http://connectdigitalstudy.com/ontology#HourlyInterval">
@@ -957,6 +1019,8 @@
   <rdf:type rdf:resource="http://connectdigitalstudy.com/ontology#SleepStage"/>
   <connect:hasStageName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Sleep</connect:hasStageName>
 </rdf:Description>
+
+
 
   <!-- Define Participant X -->
   <rdf:Description rdf:about="http://connectdigitalstudy.com/ontology#ParticipantX">
